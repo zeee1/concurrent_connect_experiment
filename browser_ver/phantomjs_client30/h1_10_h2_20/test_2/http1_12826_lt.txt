@@ -1,0 +1,1 @@
+TS : 1525222798.229	Loading https://opendata.cnu.ac.kr:80/pageLoadTest/test_50kb.html , Loading time : 2670 msec

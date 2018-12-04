@@ -1,0 +1,39 @@
+State      Recv-Q Send-Q Local Address:Port                 Peer Address:Port                
+ESTAB      0      484    192.168.0.100:47280                168.188.129.94:http                 
+	 cubic wscale:7,7 rto:360 rtt:152.875/3.192 ato:40 mss:1448 cwnd:10 ssthresh:7 bytes_acked:5421 bytes_received:669284 segs_out:286 segs_in:485 send 757.7Kbps lastsnd:124 lastrcv:128 lastack:276 pacing_rate 909.3Kbps unacked:1 rcv_rtt:154 rcv_space:130352
+ESTAB      0      0      192.168.0.100:42150                23.49.144.56:https                
+	 cubic wscale:7,7 rto:240 rtt:39.51/20.505 ato:40 mss:1448 cwnd:10 bytes_acked:569 bytes_received:146 segs_out:5 segs_in:4 send 2.9Mbps lastsnd:1760 lastrcv:1760 lastack:1684 pacing_rate 5.9Mbps rcv_space:29200
+ESTAB      0      0      192.168.0.100:42140                23.49.144.56:https                
+	 cubic wscale:7,7 rto:2980 rtt:806.791/542.457 ato:40 mss:1448 cwnd:10 bytes_acked:569 bytes_received:146 segs_out:6 segs_in:4 send 143.6Kbps lastsnd:956 lastrcv:956 lastack:880 pacing_rate 287.2Kbps retrans:0/1 rcv_space:29200
+ESTAB      0      0      127.0.0.1:12706                127.0.0.1:54750                
+	 cubic wscale:7,7 rto:208 rtt:5.343/9.357 ato:40 mss:65483 cwnd:10 bytes_acked:19118 bytes_received:12543 segs_out:84 segs_in:69 send 980.5Mbps lastsnd:108 lastrcv:484 lastack:108 pacing_rate 1960.6Mbps rcv_rtt:4 rcv_space:43690
+ESTAB      0      0      192.168.0.100:ssh                  192.168.0.101:57942                
+	 cubic wscale:7,7 rto:208 rtt:6.866/1.851 ato:40 mss:1448 cwnd:21 ssthresh:20 bytes_acked:121429 bytes_received:46781 segs_out:1390 segs_in:1945 send 35.4Mbps lastsnd:156 lastrcv:180 lastack:152 pacing_rate 42.5Mbps retrans:0/5 rcv_rtt:4 rcv_space:28960
+ESTAB      0      0      192.168.0.100:47290                168.188.129.94:http                 
+	 cubic wscale:7,7 rto:388 rtt:153.024/20.797 ato:40 mss:1448 cwnd:10 ssthresh:7 bytes_acked:2044 bytes_received:99378 segs_out:41 segs_in:76 send 757.0Kbps lastsnd:1092 lastrcv:940 lastack:940 pacing_rate 908.4Kbps rcv_rtt:158 rcv_space:29413
+ESTAB      0      0      192.168.0.100:42138                23.49.144.56:https                
+	 cubic wscale:7,7 rto:240 rtt:37.204/7.39 ato:40 mss:1448 cwnd:10 bytes_acked:997 bytes_received:134721 segs_out:81 segs_in:106 send 3.1Mbps lastsnd:1768 lastrcv:1524 lastack:1524 pacing_rate 6.2Mbps rcv_rtt:50 rcv_space:44888
+ESTAB      0      0      127.0.0.1:12706                127.0.0.1:54746                
+	 cubic wscale:7,7 rto:208 rtt:5.531/10.538 ato:40 mss:23488 cwnd:10 bytes_acked:1365 bytes_received:389 segs_out:5 segs_in:7 send 339.7Mbps lastsnd:5000 lastrcv:5020 lastack:4960 pacing_rate 679.4Mbps rcv_space:43690
+ESTAB      0      0      192.168.0.100:42146                23.49.144.56:https                
+	 cubic wscale:7,7 rto:236 rtt:34.886/4.993 ato:40 mss:1448 cwnd:10 bytes_acked:824 bytes_received:75792 segs_out:39 segs_in:58 send 3.3Mbps lastsnd:1780 lastrcv:1708 lastack:1744 pacing_rate 6.6Mbps rcv_rtt:37 rcv_space:38334
+ESTAB      0      0      127.0.0.1:37104                127.0.0.1:43112                
+	 cubic wscale:7,7 rto:204 rtt:0.042/0.017 ato:40 mss:21845 cwnd:10 bytes_acked:1261 bytes_received:883 segs_out:7 segs_in:6 send 41609.5Mbps lastsnd:4740 lastrcv:4744 lastack:4740 rcv_rtt:540 rcv_space:43690
+ESTAB      0      0      192.168.0.100:34010                52.196.18.76:https                
+	 cubic wscale:8,7 rto:240 rtt:37.113/9.745 ato:40 mss:1448 cwnd:10 bytes_acked:788 bytes_received:5950 segs_out:9 segs_in:8 send 3.1Mbps lastsnd:1024 lastrcv:980 lastack:980 pacing_rate 6.2Mbps rcv_rtt:40.5 rcv_space:29200
+ESTAB      0      0      192.168.0.100:42144                23.49.144.56:https                
+	 cubic wscale:7,7 rto:3108 rtt:1036/518 mss:1448 cwnd:10 bytes_acked:1 segs_out:3 segs_in:1 send 111.8Kbps lastsnd:992 lastrcv:992 lastack:992 pacing_rate 223.6Kbps retrans:0/1 rcv_space:29200
+ESTAB      0      679    192.168.0.100:47286                168.188.129.94:http                 
+	 cubic wscale:7,7 rto:360 rtt:151.937/5.262 ato:40 mss:1448 cwnd:10 ssthresh:7 bytes_acked:4143 bytes_received:409883 segs_out:155 segs_in:299 send 762.4Kbps lastsnd:4 lastrcv:4 lastack:4 pacing_rate 914.9Kbps unacked:1 rcv_rtt:155.5 rcv_space:69996
+ESTAB      0      0      127.0.0.1:43112                127.0.0.1:37104                
+	 cubic wscale:7,7 rto:744 rtt:220.506/129.935 ato:40 mss:1448 cwnd:10 bytes_acked:883 bytes_received:1260 segs_out:5 segs_in:7 send 525.3Kbps lastsnd:4744 lastrcv:4740 lastack:4740 pacing_rate 1.1Mbps rcv_rtt:4 rcv_space:29200
+ESTAB      0      0      192.168.0.100:47284                168.188.129.94:http                 
+	 cubic wscale:7,7 rto:388 rtt:153.672/22.067 ato:40 mss:1448 cwnd:10 ssthresh:7 bytes_acked:2007 bytes_received:54107 segs_out:48 segs_in:44 send 753.8Kbps lastsnd:452 lastrcv:148 lastack:148 pacing_rate 904.6Kbps rcv_rtt:155.5 rcv_space:29930
+ESTAB      0      0      192.168.0.100:47282                168.188.129.94:http                 
+	 cubic wscale:7,7 rto:744 rtt:215.378/120.019 ato:44 mss:1448 cwnd:10 ssthresh:7 bytes_acked:3226 bytes_received:45764 segs_out:42 segs_in:40 send 537.8Kbps lastsnd:532 lastrcv:36 lastack:220 pacing_rate 645.4Kbps retrans:0/1 rcv_rtt:156 rcv_space:29200
+ESTAB      0      0      127.0.0.1:54746                127.0.0.1:12706                
+	 cubic wscale:7,7 rto:204 rtt:2.768/5.49 ato:40 mss:22400 cwnd:10 bytes_acked:390 bytes_received:1365 segs_out:7 segs_in:6 send 647.4Mbps lastsnd:5020 lastrcv:5000 lastack:5000 pacing_rate 1294.5Mbps rcv_space:43690
+ESTAB      0      0      127.0.0.1:54750                127.0.0.1:12706                
+	 cubic wscale:7,7 rto:212 rtt:9.451/13.498 ato:40 mss:65483 cwnd:10 bytes_acked:12544 bytes_received:19118 segs_out:69 segs_in:85 send 554.3Mbps lastsnd:484 lastrcv:108 lastack:180 pacing_rate 1108.5Mbps rcv_rtt:199 rcv_space:43690
+ESTAB      0      484    192.168.0.100:47288                168.188.129.94:http                 
+	 cubic wscale:7,7 rto:376 rtt:152/14.896 ato:40 mss:1448 cwnd:10 ssthresh:7 bytes_acked:2445 bytes_received:198068 segs_out:81 segs_in:146 send 762.1Kbps lastsnd:28 lastrcv:28 lastack:28 pacing_rate 914.5Kbps unacked:1 rcv_rtt:155.5 rcv_space:55031
