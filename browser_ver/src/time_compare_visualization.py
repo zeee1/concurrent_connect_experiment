@@ -62,11 +62,20 @@ def vs_plt_by_test_case(ttfb_for_vs, fileName):
 	plt.show()
 
 def main():
-	ttfb_for_vs = pd.read_csv("../data/ebay/del_10_plr_1_ebay_data_for_vs.csv")
+	ttfb_for_vs = pd.read_csv("../data/ebay/del_150_plr_1_ebay_data_for_vs.csv")
+	temp = ttfb_for_vs.loc[ttfb_for_vs['protocol_ratio'] == 'h1_7_h2_3',]
+	print(temp.loc[temp.protocol == 'http2',]['plt'].median())
+	print(temp.loc[temp.protocol == 'http1',]['plt'].median())
+	print(temp.loc[temp.protocol == 'http2',]['plt'].median() - temp.loc[temp.protocol == 'http1',]['plt'].median())
+	print("--------------")
+	temp = ttfb_for_vs.loc[ttfb_for_vs['protocol_ratio'] == 'h1_3_h2_7',]
+	print(temp.loc[temp.protocol == 'http2',]['plt'].median())
+	print(temp.loc[temp.protocol == 'http1',]['plt'].median())
+	print(temp.loc[temp.protocol == 'http2',]['plt'].median() - temp.loc[temp.protocol == 'http1',]['plt'].median())
 	#vs_networktime_by_test_case(ttfb_for_vs,"Network Time of http1/http2 when multi-user = 10 on Delay = 100ms")
 	#ttfb_for_vs = pd.read_csv("../data/ebay/default_sp_data_for_vs.csv")
-	fileName = "ebay/del_10_plr_1_ebay_plt.png"
-	vs_plt_by_test_case(ttfb_for_vs, fileName)
+	#fileName = "ebay/del_150_plr_1_ebay_plt.png"
+	#vs_plt_by_test_case(ttfb_for_vs, fileName)
 	#fileName = "ebay/del_150_ebay_rendering.png"
 	#vs_renderingtime_by_test_case(ttfb_for_vs, fileName)
 	#fileName = "ebay/del_150_ebay_network.png"

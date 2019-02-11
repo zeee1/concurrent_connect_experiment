@@ -54,7 +54,7 @@ def vs_line_std_of_plt_by_test_case(data_for_vs, xlabel_txt, ylabel_txt):
 def main():
 	data_path = "../data/ebay/jain_fairness_index_for_vs.csv"
 	xlabel_txt = "Packet loss rate(%)"
-	ylabel_txt = "Fairess Index"
+	ylabel_txt = "Fairness Index"
 	vs_line_std_of_plt_by_test_case(pd.read_csv(data_path), xlabel_txt, ylabel_txt)
 
 	"""data_path = "../data/ebay/std_compare.csv"
